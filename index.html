@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Damilola Fabiyi — AI Automation Engineer</title>
+  <meta name="description" content="I help small businesses eliminate manual work and reclaim 20+ hours weekly through intelligent automation systems built with Make.com, Airtable, and AI." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Syne', 'sans-serif'],
+            body: ['DM Sans', 'sans-serif'],
+          },
+          colors: {
+            navy: {
+              950: '#03070F',
+              900: '#060D1A',
+              800: '#0A1428',
+              700: '#0E1C38',
+            },
+            electric: {
+              400: '#38BDF8',
+              500: '#0EA5E9',
+              600: '#0284C7',
+            },
+            violet: {
+              400: '#A78BFA',
+              500: '#8B5CF6',
+              600: '#7C3AED',
+            },
+          },
+        },
+      },
+    }
+  </script>
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="bg-navy-950 text-white font-body antialiased overflow-x-hidden">
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500">
+    <div class="max-w-7xl mx-auto px-6 lg:px-10">
+      <div class="flex items-center justify-between h-18 py-4">
+        <a href="#hero" class="font-display font-800 text-xl tracking-tight">
+          <span class="text-white">damilola</span><span class="text-electric-400">.</span>
+        </a>
+
+        <!-- Desktop Nav -->
+        <div class="hidden md:flex items-center gap-8">
+          <a href="#about" class="nav-link text-sm font-medium text-slate-400 hover:text-white transition-colors">About</a>
+          <a href="#services" class="nav-link text-sm font-medium text-slate-400 hover:text-white transition-colors">Services</a>
+          <a href="#work" class="nav-link text-sm font-medium text-slate-400 hover:text-white transition-colors">Case Studies</a>
+          <a href="#testimonials" class="nav-link text-sm font-medium text-slate-400 hover:text-white transition-colors">Results</a>
+          <a href="#contact" class="nav-link text-sm font-medium text-slate-400 hover:text-white transition-colors">Contact</a>
+          <a href="https://calendly.com/oluwadamilolaadenike33/30min" target="_blank"
+             class="btn-primary text-sm font-semibold px-5 py-2.5 rounded-lg">
+            Book a Call
+          </a>
+        </div>
+
+        <!-- Mobile hamburger -->
+        <button id="mobile-menu-btn" class="md:hidden p-2 text-slate-400 hover:text-white transition-colors" aria-label="Open menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-navy-900/95 backdrop-blur-xl border-t border-white/5 px-6 py-6">
+      <div class="flex flex-col gap-5">
+        <a href="#about" class="mobile-nav-link text-slate-300 hover:text-white transition-colors font-medium">About</a>
+        <a href="#services" class="mobile-nav-link text-slate-300 hover:text-white transition-colors font-medium">Services</a>
+        <a href="#work" class="mobile-nav-link text-slate-300 hover:text-white transition-colors font-medium">Case Studies</a>
+        <a href="#testimonials" class="mobile-nav-link text-slate-300 hover:text-white transition-colors font-medium">Results</a>
+        <a href="#contact" class="mobile-nav-link text-slate-300 hover:text-white transition-colors font-medium">Contact</a>
+        <a href="https://calendly.com/oluwadamilolaadenike33/30min" target="_blank"
+           class="btn-primary text-center font-semibold px-5 py-3 rounded-lg mt-2">
+          Book a Free Call
+        </a>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section id="hero" class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+
+    <!-- Background elements -->
+    <div class="absolute inset-0 hero-grid opacity-30"></div>
+    <div class="glow-orb glow-blue" style="top:15%;left:60%;"></div>
+    <div class="glow-orb glow-purple" style="top:60%;left:10%;"></div>
+    <div class="glow-orb glow-blue" style="top:80%;left:75%;width:350px;height:350px;"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-10 py-20 lg:py-32">
+      <div class="max-w-4xl">
+
+        <!-- Badge -->
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full badge-pill mb-8 reveal">
+          <span class="w-2 h-2 rounded-full bg-electric-400 animate-pulse"></span>
+          <span class="text-xs font-semibold text-electric-400 tracking-widest uppercase">AI Automation Engineer</span>
+        </div>
+
+        <!-- Headline -->
+        <h1 class="font-display font-800 text-5xl sm:text-6xl lg:text-7xl xl:text-8xl leading-[1.02] tracking-tight mb-6 reveal reveal-delay-1">
+          Systems That Run<br />
+          <span class="gradient-text">Your Business</span><br />
+          While You Sleep.
+        </h1>
+
+        <!-- Sub-headline -->
+        <p class="text-lg sm:text-xl text-slate-400 max-w-2xl leading-relaxed mb-10 reveal reveal-delay-2">
+          I build intelligent automation systems that eliminate manual work, accelerate your operations, and give you back 20+ hours every week — so you can focus on growth, not busywork.
+        </p>
+
+        <!-- CTAs -->
+        <div class="flex flex-col sm:flex-row gap-4 mb-16 reveal reveal-delay-3">
+          <a href="https://calendly.com/oluwadamilolaadenike33/30min" target="_blank"
+             class="btn-primary font-semibold px-8 py-4 rounded-xl text-base inline-flex items-center justify-center gap-2 group">
+            Book a Free Strategy Call
+            <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+          <a href="#work"
+             class="btn-ghost font-semibold px-8 py-4 rounded-xl text-base inline-flex items-center justify-center gap-2">
+            View Case Studies
+          </a>
+        </div>
+
+        <!-- Stats -->
+        <div class="flex flex-wrap gap-8 lg:gap-12 reveal reveal-delay-4">
+          <div class="stat-item">
+            <div class="font-display font-800 text-3xl lg:text-4xl text-white mb-1 counter" data-target="20">0</div>
+            <div class="text-xs text-slate-500 uppercase tracking-widest">+ Businesses Automated</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="font-display font-800 text-3xl lg:text-4xl text-white mb-1 counter" data-target="500">0</div>
+            <div class="text-xs text-slate-500 uppercase tracking-widest">+ Hours Saved Monthly</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="font-display font-800 text-3xl lg:text-4xl text-white mb-1 counter" data-target="98">0</div>
+            <div class="text-xs text-slate-500 uppercase tracking-widest">% Client Satisfaction</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40">
+      <span class="text-xs tracking-widest uppercase text-slate-500">Scroll</span>
+      <div class="w-px h-12 bg-gradient-to-b from-slate-500 to-transparent animate-pulse"></div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PAIN POINTS
+  ============================================================ -->
+  <section class="relative py-24 lg:py-32">
+    <div class="max-w-7xl mx-auto px-6 lg:px-10">
+      <div class="text-center mb-16 reveal">
+        <p class="text-electric-400 text-sm font-semibold uppercase tracking-widest mb-3">Sound Familiar?</p>
+        <h2 class="font-display font-700 text-4xl lg:text-5xl text-white">You started a business,<br/>not a data entry job.</h2>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <!-- Pain items -->
+        <div class="pain-card reveal">
+          <div class="pain-icon">📥</div>
+          <h3 class="font-semibold text-white mb-1">Drowning in Emails</h3>
+          <p class="text-slate-400 text-sm">Important client messages slip through the cracks of an overflowing inbox.</p>
+        </div>
+        <div class="pain-card reveal reveal-delay-1">
+          <div class="pain-icon">📅</div>
+          <h3 class="font-semibold text-white mb-1">Scheduling Nightmares</h3>
+          <p class="text-slate-400 text-sm">Wasting hours on back-and-forth email threads just to set a meeting time.</p>
+        </div>
+        <div class="pain-card reveal reveal-delay-2">
+          <div class="pain-icon">⌨️</div>
+          <h3 class="font-semibold text-white mb-1">Manual Data Entry</h3>
+          <p class="text-slate-400 text-sm">Copying the same information between three different systems — every single day.</p>
+        </div>
+        <div class="pain-card reveal reveal-delay-3">
+          <div class="pain-icon">💸</div>
+          <h3 class="font-semibold text-white mb-1">Late Payments</h3>
+          <p class="text-slate-400 text-sm">Chasing invoices manually instead of focusing on growing your business.</p>
+        </div>
+        <div class="pain-card reveal reveal-delay-4">
+          <div class="pain-icon">🗓️</div>
+          <h3 class="font-semibold text-white mb-1">Working Weekends</h3>
+          <p class="text-slate-400 text-sm">Admin work bleeds into your personal time because the tasks never end.</p>
+        </div>
+        <div class="pain-card reveal reveal-delay-1">
+          <div class="pain-icon">😰</div>
+          <h3 class="font-semibold text-white mb-1">Constant Fire-Fighting</h3>
+          <p class="text-slate-400 text-sm">Always afraid something critical will fall through the cracks. That anxiety is exhausting.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       ABOUT
+  ============================================================ -->
+  <section id="about" class="relative py-24 lg:py-32 overflow-hidden">
+    <div class="glow-orb glow-purple" style="top:50%;right:-100px;opacity:0.3;"></div>
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-10">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+        <!-- Image side -->
+        <div class="relative reveal">
+          <div class="about-image-frame">
+            <img
+              src="https://cdn.gamma.app/27st0svwl9s9f9b/0da1d87793694608aebcd88b25703412/original/My-Picture2.jpg"
+              alt="Damilola Fabiyi — AI Automation Engineer"
+              class="w-full h-full object-cover"
+              loading="lazy"
+            />
+          </div>
+          <!-- Floating badge -->
+          <div class="absolute -bottom-4 -right-4 lg:-right-8 floating-badge">
+            <div class="text-2xl mb-0.5">⚡</div>
+            <div class="font-display font-700 text-sm text-white">500+ hrs</div>
+            <div class="text-xs text-slate-400">saved monthly</div>
+          </div>
+        </div>
+
+        <!-- Text side -->
+        <div class="reveal reveal-delay-1">
+          <p class="text-electric-400 text-sm font-semibold uppercase tracking-widest mb-4">About Me</p>
+          <h2 class="font-display font-700 text-4xl lg:text-5xl text-white mb-6 leading-tight">
+            Hi, I'm Damilola 👋
+          </h2>
+          <p class="text-slate-300 text-lg leading-relaxed mb-6">
+            I'm an AI Automation Engineer who transforms chaotic, manual business operations into efficient, automated systems. Over the past year I've worked with clinics, law firms, schools, co-working spaces, and e-commerce brands — helping them reclaim time and scale without hiring more staff.
+          </p>
+          <p class="text-slate-400 leading-relaxed mb-8">
+            My passion for automation started after watching a family member struggle under mountains of paperwork. That experience lit a fire: I wanted to build systems that give people their time back. Today, my clients consistently save 15–25 hours weekly and see measurable ROI within their first month.
+          </p>
+
+          <div class="grid grid-cols-2 gap-4 mb-10">
+            <div class="about-value-card">
+              <div class="text-electric-400 mb-2">🔗</div>
+              <h4 class="text-white font-semibold text-sm mb-1">Seamless Integrations</h4>
+              <p class="text-slate-500 text-xs">Connect your CRM, ERP, and marketing tools into one unified ecosystem</p>
+            </div>
+            <div class="about-value-card">
+              <div class="text-electric-400 mb-2">📉</div>
+              <h4 class="text-white font-semibold text-sm mb-1">Error Reduction</h4>
+              <p class="text-slate-500 text-xs">AI-powered systems that eliminate human error and ensure data accuracy</p>
+            </div>
+            <div class="about-value-card">
+              <div class="text-electric-400 mb-2">📈</div>
+              <h4 class="text-white font-semibold text-sm mb-1">Scalable Systems</h4>
+              <p class="text-slate-500 text-xs">Solutions designed to grow alongside your business from day one</p>
+            </div>
+            <div class="about-value-card">
+              <div class="text-electric-400 mb-2">🌍</div>
+              <h4 class="text-white font-semibold text-sm mb-1">Global Reach</h4>
+              <p class="text-slate-500 text-xs">Working with businesses worldwide — location is never a barrier</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <a href="https://calendly.com/oluwadamilolaadenike33/30min" target="_blank"
+               class="btn-primary font-semibold px-6 py-3 rounded-xl text-sm inline-flex items-center gap-2">
+              Work With Me
+            </a>
+            <a href="http://linkedin.com/in/oluwadamilola~fabiyi" target="_blank"
+               class="btn-ghost font-semibold px-6 py-3 rounded-xl text-sm">
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SERVICES
+  ============================================================ -->
+  <section id="services" class="relative py-24 lg:py-32 overflow-hidden">
+    <div class="absolute inset-0 section-gradient-1 opacity-50"></div>
+    <div class="glow-orb glow-blue" style="top:20%;left:5%;opacity:0.2;"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-10">
+      <div class="text-center mb-16 reveal">
+        <p class="text-electric-400 text-sm font-semibold uppercase tracking-widest mb-3">What I Build</p>
+        <h2 class="font-display font-700 text-4xl lg:text-5xl text-white mb-4">Services</h2>
+        <p class="text-slate-400 max-w-xl mx-auto">End-to-end automation solutions that connect your tools, streamline your operations, and put your business on autopilot.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <div class="service-card reveal group">
+          <div class="service-icon-wrap">
+            <svg class="w-6 h-6 text-electric-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+            </svg>
+          </div>
+          <h3 class="font-display font-700 text-xl text-white mb-3">AI Automation Systems</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-5">Intelligent, AI-powered workflows that handle complex decisions — content generation, data analysis, smart routing, and more — without human input.</p>
+          <ul class="space-y-2">
+            <li class="service-feature">AI content generation pipelines</li>
+            <li class="service-feature">Intelligent lead scoring & routing</li>
+            <li class="service-feature">Multi-platform publishing automation</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal reveal-delay-1 group">
+          <div class="service-icon-wrap">
+            <svg class="w-6 h-6 text-violet-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+            </svg>
+          </div>
+          <h3 class="font-display font-700 text-xl text-white mb-3">Workflow Automation</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-5">End-to-end process automation that eliminates repetitive tasks, reduces errors, and keeps your operations running around the clock.</p>
+          <ul class="space-y-2">
+            <li class="service-feature">Client onboarding automation</li>
+            <li class="service-feature">Document generation & filing</li>
+            <li class="service-feature">Automated reporting & dashboards</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2 group">
+          <div class="service-icon-wrap">
+            <svg class="w-6 h-6 text-electric-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
+            </svg>
+          </div>
+          <h3 class="font-display font-700 text-xl text-white mb-3">CRM Automation</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-5">Automated CRM workflows that nurture leads, follow up with prospects, and keep your pipeline moving — without lifting a finger.</p>
+          <ul class="space-y-2">
+            <li class="service-feature">Automated follow-up sequences</li>
+            <li class="service-feature">Lead capture & enrichment</li>
+            <li class="service-feature">Pipeline stage automation</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal reveal-delay-3 group">
+          <div class="service-icon-wrap">
+            <svg class="w-6 h-6 text-violet-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/>
+            </svg>
+          </div>
+          <h3 class="font-display font-700 text-xl text-white mb-3">Payment & Billing Automation</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-5">Automated invoicing, payment reminders, and reconciliation systems that ensure you get paid on time — every time.</p>
+          <ul class="space-y-2">
+            <li class="service-feature">Automatic invoice generation</li>
+            <li class="service-feature">Overdue payment reminders</li>
+            <li class="service-feature">Real-time payment dashboards</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal reveal-delay-4 group">
+          <div class="service-icon-wrap">
+            <svg class="w-6 h-6 text-electric-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+            </svg>
+          </div>
+          <h3 class="font-display font-700 text-xl text-white mb-3">Scheduling & Intake Automation</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-5">Smart booking systems and client intake flows that eliminate back-and-forth scheduling and capture all the information you need upfront.</p>
+          <ul class="space-y-2">
+            <li class="service-feature">Intelligent appointment booking</li>
+            <li class="service-feature">Automated intake forms & follow-ups</li>
+            <li class="service-feature">No-show reminder sequences</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal reveal-delay-1 group">
+          <div class="service-icon-wrap">
+            <svg class="w-6 h-6 text-violet-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+            </svg>
+          </div>
+          <h3 class="font-display font-700 text-xl text-white mb-3">Business Process Automation</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-5">Comprehensive system overhauls that connect your entire business — from intake to invoicing — into one unified, automated operation.</p>
+          <ul class="space-y-2">
+            <li class="service-feature">Full business operations audit</li>
+            <li class="service-feature">Multi-department automation</li>
+            <li class="service-feature">Custom dashboards & reporting</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CASE STUDIES
+  ============================================================ -->
+  <section id="work" class="relative py-24 lg:py-32">
+    <div class="max-w-7xl mx-auto px-6 lg:px-10">
+      <div class="text-center mb-16 reveal">
+        <p class="text-electric-400 text-sm font-semibold uppercase tracking-widest mb-3">Proof of Work</p>
+        <h2 class="font-display font-700 text-4xl lg:text-5xl text-white mb-4">Case Studies</h2>
+        <p class="text-slate-400 max-w-xl mx-auto">Real problems. Real solutions. Real results. Here's what intelligent automation looks like in practice.</p>
+      </div>
+
+      <!-- Case Study 1 -->
+      <div class="case-study-card reveal mb-8">
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-0">
+          <div class="lg:col-span-2 case-study-image-wrap">
+            <img src="https://cdn.gamma.app/27st0svwl9s9f9b/d5950935fa664f8b8e7a38736c9dd47c/original/image.png"
+                 alt="Sam Dental Clinic Automation"
+                 class="w-full h-full object-cover" loading="lazy" />
+            <div class="case-study-industry-badge">Healthcare</div>
+          </div>
+          <div class="lg:col-span-3 p-8 lg:p-10">
+            <h3 class="font-display font-700 text-2xl lg:text-3xl text-white mb-2">Sam Dental Clinic</h3>
+            <p class="text-electric-400 text-sm font-medium mb-6">Patient Intake & Appointment Automation</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+              <div>
+                <h4 class="text-xs uppercase tracking-widest text-slate-500 mb-2">The Problem</h4>
+                <p class="text-slate-300 text-sm leading-relaxed">Dr. Sam was spending 3+ hours daily on patient paperwork. Staff burnout was rising. No-shows were costing $5,000+ per month with no systematic way to reduce them.</p>
+              </div>
+              <div>
+                <h4 class="text-xs uppercase tracking-widest text-slate-500 mb-2">The Solution</h4>
+                <p class="text-slate-300 text-sm leading-relaxed">Automated the entire patient journey — online intake before arrival, automated appointment reminders 24 hours out, and post-visit follow-up sequences running on autopilot.</p>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
+              <div class="result-metric">
+                <div class="result-number">18hrs</div>
+                <div class="result-label">Saved Weekly</div>
+              </div>
+              <div class="result-metric">
+                <div class="result-number">35%</div>
+                <div class="result-label">Fewer No-Shows</div>
+              </div>
+              <div class="result-metric">
+                <div class="result-number">40%</div>
+                <div class="result-label">More Patients</div>
+              </div>
+              <div class="result-metric">
+                <div class="result-number">$2.4k</div>
+                <div class="result-label">Saved Monthly</div>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap gap-2">
+              <span class="tool-tag">Airtable</span>
+              <span class="tool-tag">Make.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Case Study 2 -->
+      <div class="case-study-card reveal mb-8">
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-0">
+          <div class="lg:col-span-2 case-study-image-wrap">
+            <img src="https://cdn.gamma.app/27st0svwl9s9f9b/2c72df6e74fc41339dca2be7b07cd0be/original/PI-automation.png"
+                 alt="John & Associates Law Firm Automation"
+                 class="w-full h-full object-cover" loading="lazy" />
+            <div class="case-study-industry-badge">Legal</div>
+          </div>
+          <div class="lg:col-span-3 p-8 lg:p-10">
+            <h3 class="font-display font-700 text-2xl lg:text-3xl text-white mb-2">John & Associates</h3>
+            <p class="text-electric-400 text-sm font-medium mb-6">Legal Case Management & Client Intake Automation</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+              <div>
+                <h4 class="text-xs uppercase tracking-widest text-slate-500 mb-2">The Problem</h4>
+                <p class="text-slate-300 text-sm leading-relaxed">Each new case required 4+ hours of manual setup. Client information was scattered across emails, forms, and disparate systems. Deadlines were being missed — a critical risk for a law firm.</p>
+              </div>
+              <div>
+                <h4 class="text-xs uppercase tracking-widest text-slate-500 mb-2">The Solution</h4>
+                <p class="text-slate-300 text-sm leading-relaxed">Built a centralized automated intake system capturing all client data, scheduling consultations, sending reminder sequences, and tracking every deadline — all inside a single Airtable base.</p>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
+              <div class="result-metric">
+                <div class="result-number">75%</div>
+                <div class="result-label">Faster Setup</div>
+              </div>
+              <div class="result-metric">
+                <div class="result-number">3x</div>
+                <div class="result-label">More Cases</div>
+              </div>
+              <div class="result-metric">
+                <div class="result-number">Zero</div>
+                <div class="result-label">Missed Deadlines</div>
+              </div>
+              <div class="result-metric">
+                <div class="result-number">$8k</div>
+                <div class="result-label">Saved Monthly</div>
+              </div>
+            </div>
+
+            <div class="testimonial-inline">
+              <p class="text-slate-300 text-sm italic mb-3">"What used to take hours of manual setup is now fully automated. We don't miss deadlines anymore, and our team can focus on winning cases instead of paperwork. Best investment we've made."</p>
+              <p class="text-white text-sm font-semibold">— Sarah L., Managing Partner</p>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mt-6">
+              <span class="tool-tag">Airtable</span>
+              <span class="tool-tag">Make.com</span>
+              <span class="tool-tag">Slack</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Case Study 3 -->
+      <div class="case-study-card reveal mb-8">
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-0">
+          <div class="lg:col-span-2 case-study-image-wrap">
+            <img src="https://cdn.gamma.app/27st0svwl9s9f9b/1ddf117e395c46749cfead7156c49547/original/Co-working-space.png"
+                 alt="Urban Workspace Co-working Automation"
+                 class="w-full h-full object-cover" loading="lazy" />
+            <div class="case-study-industry-badge">Real Estate</div>
+          </div>
+          <div class="lg:col-span-3 p-8 lg:p-10">
+            <h3 class="font-display font-700 text-2xl lg:text-3xl text-white mb-2">Urban Workspace</h3>
+            <p class="text-electric-400 text-sm font-medium mb-6">Membership Lifecycle & Co-working Space Automation</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+              <div>
+                <h4 class="text-xs uppercase tracking-widest text-slate-500 mb-2">The Problem</h4>
+                <p class="text-slate-300 text-sm leading-relaxed">Managing memberships, sending access codes, tracking renewals, and handling bookings was consuming a full-time employee's hours. New members waited up to 24 hours for Wi-Fi credentials.</p>
+              </div>
+              <div>
+                <h4 class="text-xs uppercase tracking-widest text-slate-500 mb-2">The Solution</h4>
+                <p class="text-slate-300 text-sm leading-relaxed">Automated the complete membership lifecycle: instant welcome emails with access credentials, automated renewal reminders with smart timing, and seamless room booking management.</p>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
+              <div class="result-metric">
+                <div class="result-number">25hrs</div>
+                <div class="result-label">Saved Weekly</div>
+              </div>
+              <div class="result-metric">
+                <div class="result-number">Instant</div>
+                <div class="result-label">Onboarding</div>
+              </div>
+              <div class="result-metric">
+                <div class="result-number">40%</div>
+                <div class="result-label">Renewal Rate ↑</div>
+              </div>
+              <div class="result-metric">
+                <div class="result-number">35%</div>
+                <div class="result-label">Satisfaction ↑</div>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap gap-2">
+              <span class="tool-tag">Airtable</span>
+              <span class="tool-tag">Make.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Case Study 4 -->
+      <div class="case-study-card reveal mb-8">
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-0">
+          <div class="lg:col-span-2 case-study-image-wrap">
+            <img src="https://cdn.gamma.app/27st0svwl9s9f9b/5c4498bcbb0144d099e3b34dd4f8a857/original/image.png"
+                 alt="School Payment Tracking Automation"
+                 class="w-full h-full object-cover object-top" loading="lazy" />
+            <div class="case-study-industry-badge">Education</div>
+          </div>
+          <div class="lg:col-span-3 p-8 lg:p-10">
+            <h3 class="font-display font-700 text-2xl lg:text-3xl text-white mb-2">Education Institution</h3>
+            <p class="text-electric-400 text-sm font-medium mb-6">Student Payment Tracking & Communication Automation</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+              <div>
+                <h4 class="text-xs uppercase tracking-widest text-slate-500 mb-2">The Problem</h4>
+                <p class="text-slate-300 text-sm leading-relaxed">Hundreds of student payment records were tracked manually in spreadsheets. Late payment follow-ups were inconsistent, and parents frequently complained about unclear payment status.</p>
+              </div>
+              <div>
+                <h4 class="text-xs uppercase tracking-widest text-slate-500 mb-2">The Solution</h4>
+                <p class="text-slate-300 text-sm leading-relaxed">Built an automated payment tracking system with smart reminders for upcoming and overdue fees, real-time parent status notifications, and an administrator dashboard for full visibility.</p>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
+              <div class="result-metric">
+                <div class="result-number">15hrs</div>
+                <div class="result-label">Saved Weekly</div>
+              </div>
+              <div class="result-metric">
+                <div class="result-number">60%</div>
+                <div class="result-label">Less Late Pays</div>
+              </div>
+              <div class="result-metric">
+                <div class="result-number">Zero</div>
+                <div class="result-label">Manual Errors</div>
+              </div>
+              <div class="result-metric">
+                <div class="result-number">Clear</div>
+                <div class="result-label">Audit Trail</div>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap gap-2">
+              <span class="tool-tag">Airtable</span>
+              <span class="tool-tag">Make.com</span>
+              <span class="tool-tag">Twilio</span>
+              <span class="tool-tag">Gmail</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Case Study 5 -->
+      <div class="case-study-card reveal">
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-0">
+          <div class="lg:col-span-2 case-study-image-wrap">
+            <img src="https://cdn.gamma.app/27st0svwl9s9f9b/119262658a6f4a8dbb9069b9bdc48dfc/original/Screenshot_27-11-2025_9588_eu1.make.com.jpeg"
+                 alt="Multilingual Content Publishing Automation"
+                 class="w-full h-full object-cover" loading="lazy" />
+            <div class="case-study-industry-badge">Media</div>
+          </div>
+          <div class="lg:col-span-3 p-8 lg:p-10">
+            <h3 class="font-display font-700 text-2xl lg:text-3xl text-white mb-2">Multilingual Media Brand</h3>
+            <p class="text-electric-400 text-sm font-medium mb-6">AI-Powered Content Publishing Across 5 Platforms</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+              <div>
+                <h4 class="text-xs uppercase tracking-widest text-slate-500 mb-2">The Problem</h4>
+                <p class="text-slate-300 text-sm leading-relaxed">Creating, translating, and publishing content to five platforms was consuming 12+ hours weekly. Schedules were inconsistent, and manual translation was both expensive and slow.</p>
+              </div>
+              <div>
+                <h4 class="text-xs uppercase tracking-widest text-slate-500 mb-2">The Solution</h4>
+                <p class="text-slate-300 text-sm leading-relaxed">Built an end-to-end AI-powered content pipeline: automatic translation into 3 languages, AI visual creation, and scheduled publishing to all platforms — from planning to publication with zero manual intervention.</p>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
+              <div class="result-metric">
+                <div class="result-number">12hrs</div>
+                <div class="result-label">Saved Weekly</div>
+              </div>
+              <div class="result-metric">
+                <div class="result-number">3</div>
+                <div class="result-label">Languages Auto</div>
+              </div>
+              <div class="result-metric">
+                <div class="result-number">5</div>
+                <div class="result-label">Platforms Managed</div>
+              </div>
+              <div class="result-metric">
+                <div class="result-number">70%</div>
+                <div class="result-label">Cost Reduction</div>
+              </div>
+            </div>
+
+            <div class="mb-6">
+              <a href="https://vimeo.com/1141045315/aaf387adc2?share=copy&fl=sv&fe=ci" target="_blank"
+                 class="inline-flex items-center gap-2 text-electric-400 text-sm font-semibold hover:text-white transition-colors">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+                Watch Video Walkthrough
+              </a>
+            </div>
+
+            <div class="flex flex-wrap gap-2">
+              <span class="tool-tag">Airtable</span>
+              <span class="tool-tag">Make.com</span>
+              <span class="tool-tag">OpenAI API</span>
+              <span class="tool-tag">DeepL</span>
+              <span class="tool-tag">Metricool</span>
+              <span class="tool-tag">Heygen</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       WORKFLOW SCREENSHOTS
+  ============================================================ -->
+  <section class="relative py-20 lg:py-24 overflow-hidden">
+    <div class="absolute inset-0 section-gradient-2 opacity-60"></div>
+    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-10">
+      <div class="text-center mb-12 reveal">
+        <p class="text-electric-400 text-sm font-semibold uppercase tracking-widest mb-3">Behind the Scenes</p>
+        <h2 class="font-display font-700 text-3xl lg:text-4xl text-white">Automation in Action</h2>
+        <p class="text-slate-400 mt-3 max-w-lg mx-auto text-sm">A glimpse into the intricate workflows built to bring order to complex operations.</p>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+        <div class="workflow-screenshot-card reveal col-span-1">
+          <img src="https://cdn.gamma.app/27st0svwl9s9f9b/11760ec08a874cd5b4b4f378a4c2fc70/original/Screenshot_21-10-2025_131745_eu1.make.com.jpeg" alt="Make.com automation workflow" loading="lazy" class="w-full h-full object-cover" />
+        </div>
+        <div class="workflow-screenshot-card reveal reveal-delay-1 col-span-1">
+          <img src="https://cdn.gamma.app/27st0svwl9s9f9b/b934086e5ff64b23ab448b975e48fa54/original/Screenshot_27-9-2025_222953_eu1.make.com.jpeg" alt="Make.com workflow screenshot" loading="lazy" class="w-full h-full object-cover" />
+        </div>
+        <div class="workflow-screenshot-card reveal reveal-delay-2 col-span-1">
+          <img src="https://cdn.gamma.app/27st0svwl9s9f9b/e52f6505950b423aaa76af124e4e0083/original/OLUWADAMILOLA-FABIYI.png" alt="Automation system overview" loading="lazy" class="w-full h-full object-cover" />
+        </div>
+        <div class="workflow-screenshot-card reveal reveal-delay-3 col-span-1">
+          <img src="https://cdn.gamma.app/27st0svwl9s9f9b/c8d97338df7b49bd8abcc02e2122159a/original/image.png" alt="Dashboard automation" loading="lazy" class="w-full h-full object-cover" />
+        </div>
+        <div class="workflow-screenshot-card reveal reveal-delay-4 col-span-2 md:col-span-1">
+          <img src="https://cdn.gamma.app/27st0svwl9s9f9b/4043c50df2414941ac7c8fe96b80b20e/original/Co-working-space.png" alt="Co-working space automation workflow" loading="lazy" class="w-full h-full object-cover" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       TESTIMONIALS
+  ============================================================ -->
+  <section id="testimonials" class="relative py-24 lg:py-32">
+    <div class="glow-orb glow-blue" style="bottom:10%;right:5%;opacity:0.2;"></div>
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-10">
+      <div class="text-center mb-16 reveal">
+        <p class="text-electric-400 text-sm font-semibold uppercase tracking-widest mb-3">Client Results</p>
+        <h2 class="font-display font-700 text-4xl lg:text-5xl text-white">What Clients Say</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <div class="testimonial-card reveal">
+          <div class="flex mb-5">
+            <span class="text-electric-400">★★★★★</span>
+          </div>
+          <p class="text-slate-300 leading-relaxed mb-6">"Damilola completely changed how we handle cases and deadlines. We used to waste hours on manual setup and constantly miss things. Now it's all automated. We've reclaimed 20+ hours weekly and can focus on our clients instead of paperwork."</p>
+          <div class="flex items-center gap-3 pt-5 border-t border-white/10">
+            <div class="testimonial-avatar">SL</div>
+            <div>
+              <p class="text-white font-semibold text-sm">Sarah L.</p>
+              <p class="text-slate-500 text-xs">Managing Partner, Personal Injury Law Firm</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal-delay-1">
+          <div class="flex mb-5">
+            <span class="text-electric-400">★★★★★</span>
+          </div>
+          <p class="text-slate-300 leading-relaxed mb-6">"Working with Damilola was a game-changer for our clinic. The automated intake and reminder system cut no-shows by 35% and freed our staff to focus on patient care, not endless paperwork. Best decision we made this year."</p>
+          <div class="flex items-center gap-3 pt-5 border-t border-white/10">
+            <div class="testimonial-avatar">SD</div>
+            <div>
+              <p class="text-white font-semibold text-sm">Dr. Sam D.</p>
+              <p class="text-slate-500 text-xs">Principal Dentist, Dental Clinic</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal-delay-2">
+          <div class="flex mb-5">
+            <span class="text-electric-400">★★★★★</span>
+          </div>
+          <p class="text-slate-300 leading-relaxed mb-6">"Damilola built a payment tracker that saved us 15 hours weekly. Parent communication improved dramatically, late payments dropped 60%, and we finally have clear visibility on all transactions. We didn't know we needed this until she showed us what was possible."</p>
+          <div class="flex items-center gap-3 pt-5 border-t border-white/10">
+            <div class="testimonial-avatar">TF</div>
+            <div>
+              <p class="text-white font-semibold text-sm">Taiwo F.</p>
+              <p class="text-slate-500 text-xs">School Administrator</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       TECH STACK
+  ============================================================ -->
+  <section class="relative py-20 overflow-hidden">
+    <div class="absolute inset-0 section-gradient-1 opacity-40"></div>
+    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-10">
+      <div class="text-center mb-12 reveal">
+        <p class="text-electric-400 text-sm font-semibold uppercase tracking-widest mb-3">The Toolkit</p>
+        <h2 class="font-display font-700 text-3xl lg:text-4xl text-white">Technologies I Work With</h2>
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-4">
+        <div class="tech-badge reveal">
+          <img src="https://cdn.prod.website-files.com/62d5c5a8e2d6e5b3f7c98d8e/63e81d81eb3c2c7d1d41d0ec_make-logo.svg" alt="Make.com" class="h-5 w-auto" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+          <span class="hidden font-semibold">⚡</span>
+          <span>Make.com</span>
+        </div>
+        <div class="tech-badge reveal reveal-delay-1">
+          <span>🗄️</span>
+          <span>Airtable</span>
+        </div>
+        <div class="tech-badge reveal reveal-delay-2">
+          <span>⚙️</span>
+          <span>Zapier</span>
+        </div>
+        <div class="tech-badge reveal reveal-delay-3">
+          <span>🤖</span>
+          <span>OpenAI API</span>
+        </div>
+        <div class="tech-badge reveal reveal-delay-4">
+          <span>📬</span>
+          <span>Gmail / Google Workspace</span>
+        </div>
+        <div class="tech-badge reveal">
+          <span>💳</span>
+          <span>Stripe</span>
+        </div>
+        <div class="tech-badge reveal reveal-delay-1">
+          <span>📅</span>
+          <span>Calendly</span>
+        </div>
+        <div class="tech-badge reveal reveal-delay-2">
+          <span>💬</span>
+          <span>Slack</span>
+        </div>
+        <div class="tech-badge reveal reveal-delay-3">
+          <span>📋</span>
+          <span>Notion</span>
+        </div>
+        <div class="tech-badge reveal reveal-delay-4">
+          <span>🌐</span>
+          <span>Twilio</span>
+        </div>
+        <div class="tech-badge reveal">
+          <span>🎨</span>
+          <span>Creatomate</span>
+        </div>
+        <div class="tech-badge reveal reveal-delay-1">
+          <span>🌍</span>
+          <span>DeepL</span>
+        </div>
+      </div>
+      <p class="text-center text-slate-600 text-sm mt-6">+ 500 more apps via Make.com & Zapier integrations</p>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PROCESS
+  ============================================================ -->
+  <section class="relative py-24 lg:py-32">
+    <div class="max-w-7xl mx-auto px-6 lg:px-10">
+      <div class="text-center mb-16 reveal">
+        <p class="text-electric-400 text-sm font-semibold uppercase tracking-widest mb-3">How It Works</p>
+        <h2 class="font-display font-700 text-4xl lg:text-5xl text-white mb-4">From Chaos to Clarity<br/>in 4 Steps</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="process-step reveal">
+          <div class="process-number">01</div>
+          <h3 class="font-display font-700 text-xl text-white mb-3">Discovery Call</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">30 minutes to understand your biggest pain points and time-wasters. No sales pressure — just honest conversation about your needs.</p>
+          <div class="process-tag">Free · 30 min</div>
+        </div>
+        <div class="process-step reveal reveal-delay-1">
+          <div class="process-number">02</div>
+          <h3 class="font-display font-700 text-xl text-white mb-3">Custom Proposal</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Within 1–2 days, you receive a tailored solution plan with a clear scope, timeline, and deliverables. No surprises.</p>
+          <div class="process-tag">1–2 Days</div>
+        </div>
+        <div class="process-step reveal reveal-delay-2">
+          <div class="process-number">03</div>
+          <h3 class="font-display font-700 text-xl text-white mb-3">Build & Refine</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">I build your automation system while you review progress at key milestones. We iterate until it's exactly right.</p>
+          <div class="process-tag">1–4 Weeks</div>
+        </div>
+        <div class="process-step reveal reveal-delay-3">
+          <div class="process-number">04</div>
+          <h3 class="font-display font-700 text-xl text-white mb-3">Launch & Train</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Your team learns the system, we go live, and you start saving time immediately. Ongoing support available as your needs evolve.</p>
+          <div class="process-tag">Go Live</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FAQ
+  ============================================================ -->
+  <section class="relative py-24 lg:py-28 overflow-hidden">
+    <div class="absolute inset-0 section-gradient-2 opacity-50"></div>
+    <div class="relative z-10 max-w-3xl mx-auto px-6 lg:px-10">
+      <div class="text-center mb-12 reveal">
+        <p class="text-electric-400 text-sm font-semibold uppercase tracking-widest mb-3">Questions</p>
+        <h2 class="font-display font-700 text-4xl text-white">Frequently Asked</h2>
+      </div>
+
+      <div class="space-y-3" id="faq">
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do I need technical skills to use these systems?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Not at all. I design everything to be intuitive and easy to use. If you can use email and a web browser, you can run the systems I build. Full training for you and your team is included with every project.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal reveal-delay-1">
+          <button class="faq-question" aria-expanded="false">
+            <span>How long does implementation take?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Most projects take 1–4 weeks depending on complexity. Simple automations can be live within a few days, while complete system overhauls may take a month. I'll give you an exact timeline in your proposal.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal reveal-delay-2">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can you work with the tools I already use?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Almost certainly, yes. I work with 500+ apps including Gmail, Google Sheets, QuickBooks, Stripe, Calendly, and most popular business tools. If you're using something uncommon, we'll find a way to integrate it.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal reveal-delay-3">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is my data safe?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. I use enterprise-grade platforms (Airtable, Make, Zapier) with industry-standard security. Your data stays within your own accounts — I only build the connections. I sign NDAs on request.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal reveal-delay-4">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you work with businesses outside Nigeria?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! I work with businesses worldwide. Everything is done remotely, so your location is never a barrier.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>What if automation isn't right for my business?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>I'll be direct with you in the discovery call. I only take on projects where I'm genuinely confident I can deliver measurable value. If automation isn't the right fit, I'll tell you — and point you toward what might be.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CONTACT / CTA
+  ============================================================ -->
+  <section id="contact" class="relative py-24 lg:py-32 overflow-hidden">
+    <div class="glow-orb glow-blue" style="top:30%;left:50%;transform:translateX(-50%);width:600px;height:600px;opacity:0.12;"></div>
+
+    <div class="relative z-10 max-w-5xl mx-auto px-6 lg:px-10">
+
+      <!-- Big CTA Banner -->
+      <div class="cta-banner reveal text-center mb-20">
+        <p class="text-electric-400 text-sm font-semibold uppercase tracking-widest mb-4">Ready to Automate?</p>
+        <h2 class="font-display font-800 text-4xl sm:text-5xl lg:text-6xl text-white mb-6 leading-tight">
+          Let's Build Systems<br/><span class="gradient-text">That Work for You.</span>
+        </h2>
+        <p class="text-slate-400 text-lg max-w-xl mx-auto mb-10">
+          Book a free 30-minute strategy call. We'll identify your biggest automation opportunities and map out a clear path forward — no commitment required.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="https://calendly.com/oluwadamilolaadenike33/30min" target="_blank"
+             class="btn-primary font-semibold px-10 py-4 rounded-xl text-base inline-flex items-center justify-center gap-2 group">
+            Book Your Free Strategy Call
+            <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        <p class="text-slate-600 text-sm mt-4">Free · No commitment · 30 minutes</p>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-12">
+        <div class="lg:col-span-2 reveal">
+          <h3 class="font-display font-700 text-2xl text-white mb-4">Or send a message</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-8">Not ready to book a call? Tell me about your biggest time-waster and I'll send back specific automation ideas — no commitment needed.</p>
+
+          <div class="space-y-5">
+            <div class="contact-info-item">
+              <svg class="w-4 h-4 text-electric-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+              <a href="mailto:oluwadamilolaadenike33@gmail.com" class="text-slate-300 hover:text-white transition-colors text-sm">oluwadamilolaadenike33@gmail.com</a>
+            </div>
+            <div class="contact-info-item">
+              <svg class="w-4 h-4 text-electric-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z M4 6a2 2 0 100-4 2 2 0 000 4z"/>
+              </svg>
+              <a href="http://linkedin.com/in/oluwadamilola~fabiyi" target="_blank" class="text-slate-300 hover:text-white transition-colors text-sm">LinkedIn</a>
+            </div>
+            <div class="contact-info-item">
+              <svg class="w-4 h-4 text-electric-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+              </svg>
+              <a href="https://x.com/iam_dahmi" target="_blank" class="text-slate-300 hover:text-white transition-colors text-sm">@iam_dahmi on X/Twitter</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-3 reveal reveal-delay-1">
+          <form id="contact-form" class="space-y-4" action="https://formspree.io/f/oluwadamilolaadenike33@gmail.com" method="POST">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs text-slate-500 uppercase tracking-wider mb-2">Name</label>
+                <input type="text" name="name" required placeholder="Your name"
+                       class="form-input w-full" />
+              </div>
+              <div>
+                <label class="block text-xs text-slate-500 uppercase tracking-wider mb-2">Email</label>
+                <input type="email" name="email" required placeholder="your@email.com"
+                       class="form-input w-full" />
+              </div>
+            </div>
+            <div>
+              <label class="block text-xs text-slate-500 uppercase tracking-wider mb-2">Business Type</label>
+              <input type="text" name="business" placeholder="e.g. Law firm, clinic, e-commerce..."
+                     class="form-input w-full" />
+            </div>
+            <div>
+              <label class="block text-xs text-slate-500 uppercase tracking-wider mb-2">Your Biggest Time-Waster</label>
+              <textarea name="message" rows="4" required placeholder="Tell me what's eating up your time..."
+                        class="form-input w-full resize-none"></textarea>
+            </div>
+            <button type="submit"
+                    class="btn-primary w-full font-semibold py-4 rounded-xl text-base">
+              Send Message
+            </button>
+            <div id="form-success" class="hidden text-center text-electric-400 text-sm font-medium pt-2">
+              ✓ Message sent! I'll get back to you within 24 hours.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="relative border-t border-white/5 py-12">
+    <div class="max-w-7xl mx-auto px-6 lg:px-10">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div>
+          <a href="#hero" class="font-display font-800 text-xl tracking-tight">
+            <span class="text-white">damilola</span><span class="text-electric-400">.</span>
+          </a>
+          <p class="text-slate-600 text-xs mt-1">AI Automation Engineer</p>
+        </div>
+        <div class="flex items-center gap-6 text-sm">
+          <a href="#about" class="text-slate-500 hover:text-white transition-colors">About</a>
+          <a href="#services" class="text-slate-500 hover:text-white transition-colors">Services</a>
+          <a href="#work" class="text-slate-500 hover:text-white transition-colors">Work</a>
+          <a href="#contact" class="text-slate-500 hover:text-white transition-colors">Contact</a>
+        </div>
+        <div class="flex items-center gap-4">
+          <a href="http://linkedin.com/in/oluwadamilola~fabiyi" target="_blank" class="social-icon">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 6a2 2 0 100-4 2 2 0 000 4z"/></svg>
+          </a>
+          <a href="https://x.com/iam_dahmi" target="_blank" class="social-icon">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="mailto:oluwadamilolaadenike33@gmail.com" class="social-icon">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="mt-8 pt-8 border-t border-white/5 text-center text-slate-700 text-xs">
+        © 2025 Oluwadamilola Fabiyi. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
